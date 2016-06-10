@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "br.com.espacolivreapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "br.com.espacolivreapp"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "br.com.espacolivreapp"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "br.com.espacolivreapp"
+        },
+        "cordova-plugin-ms-azure-mobile-apps": {
+            "PACKAGE_NAME": "br.com.espacolivreapp"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "br.com.espacolivreapp"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "br.com.espacolivreapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "br.com.espacolivreapp"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "br.com.espacolivreapp"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "br.com.espacolivreapp"
+        }
+    }
+}

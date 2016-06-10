@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "Espaço Livre"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "Espaço Livre"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "Espaço Livre"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "Espaço Livre"
+        },
+        "cordova-plugin-ms-azure-mobile-apps": {
+            "PACKAGE_NAME": "Espaço Livre"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "Espaço Livre"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "Espaço Livre"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "Espaço Livre"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "Espaço Livre"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "Espaço Livre"
+        }
+    }
+}

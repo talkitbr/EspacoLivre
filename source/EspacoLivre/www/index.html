@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Espaço Livre</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/buttonpress.css" />
+    <link rel="stylesheet" type="text/css" href="css/modal.css" />
+    <link rel="stylesheet" type="text/css" href="css/loading.css" />
+
+    <script src="cordova.js"></script>
+</head>
+<body>       
+    <div id="wrapper">           
+        <!-- Help modal -->
+        <div id="helpModal" class="modal">
+            <div class="modal-content">
+                <span class="close">×</span>
+                <h1>Ajuda</h1>
+
+                <div class="helpItem">
+                    <div>
+                        <img class="helpItemIcon" src="images/pin.png" />
+                    </div>
+                    <div>
+                        Arraste a marcação para o local onde você sofreu uma agressão.
+                    </div>
+                </div>
+
+                <div class="helpItem">
+                    <div>
+                        <img class="helpItemIcon" src="images/btnPhysical.png" />
+                    </div>
+                    <div>
+                        Para reportar uma agressão física, clique no ícone do punho fechado.
+                    </div>
+                </div>
+
+                <div class="helpItem">
+                    <div>
+                        <img class="helpItemIcon" src="images/btnVerbal.png" />
+                    </div>
+                    <div>
+                        Para reportar uma agressão verbal, clique no ícone da boca.
+                    </div>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <div style="text-align: center;">
+                        Desenvolvido por:
+                    </div>
+                    <div style="text-align: center;">
+                        <a href="http://www.eldorado.org.br" target="_blank">
+                            <img style="width:150px; margin-top:10px;" src="images/imgEldorado.png" />
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>       
+
+        <div id="over_map_top">
+            <span class="help_button"><img src="images/btnHelp.png" height="35" width="35" /></span>
+        </div>
+
+        <script language="javascript" type="text/javascript" src="scripts/modal.js"></script>
+
+        <div id="map">
+        </div>
+
+        <div id="over_map_bottom">
+            <div>
+                <a href="#" class="button physical_button"></a>
+                <a href="#" class="button verbal_button"></a>
+            </div>
+        </div>            
+    </div>    
+    <div id="loadingView" style="height: 100%; width: 100%;position: absolute;z-index: 9999;top: 0; display:none;">        
+            <div class="loader"></div>        
+    </div>
+    <script language="javascript" type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="scripts/index.js"></script>
+    <script language="javascript" type="text/javascript" src="scripts/constants.js"></script>
+    <script language="javascript" type="text/javascript" src="scripts/notification.js"></script>
+    <script language="javascript" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<MAP_KEY>&libraries=visualization"></script>
+</body>
+</html>

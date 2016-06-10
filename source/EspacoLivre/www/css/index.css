@@ -1,0 +1,143 @@
+html, #wrapper  {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    position: relative;
+}
+
+#map {
+    height: 100%;
+    width: 100%;            
+}
+
+#over_map_top {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 20%;
+    text-align: right;
+    background-color: transparent;
+    z-index: 99;
+}
+
+#over_map_bottom { 
+    position:absolute;    
+    margin: auto;
+    left: 50%;
+    bottom: 0;                  
+    z-index: 99;    
+    transform: translate(-50%, 0);
+    background-color: transparent;
+}
+
+#over_map_bottom div {         
+    
+}
+
+.help_button {
+    color: #000;
+    float: right;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.help_button:hover,
+.help_button:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.helpItem {
+    display: table-row;
+}
+
+.helpItemIcon {
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.helpItem > div {
+    display: table-cell; 
+    padding: 10px 20px 20px 0; 
+    vertical-align: middle;
+    font-size: 1.2em;
+}
+
+.physical_button {
+    background-image: url(../images/btnPhysical.png);    
+}
+
+.verbal_button {
+    background-image: url(../images/btnVerbal.png);    
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    background-color:#32383d;
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+    font-size:12px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    background: url(../images/cordova.png) no-repeat center top; 
+    background-size: contain;
+    position: absolute;             
+    left: 50%;
+    top: 50%;
+    height: 30px;                  
+    width: 250px;                   
+    text-align: center;
+    padding: 200px 0px 0px 0px;     
+    margin: -125px;
+}
+
+.event {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFFFFF;
+    margin: 27px;
+    padding: 4px 0px;
+    text-transform: uppercase;
+    background-color: #696969;
+    animation: fade 3000ms infinite;
+    -webkit-animation: fade 3000ms infinite;
+}
+
+.ready {
+    background-color: #4B946A;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+
+@media screen and (orientation: portrait) {
+}
+
+@media screen and (orientation: landscape) {
+}
+
+@media screen and (max-width: 720px) {
+    #over_map_bottom div {
+        width: 150px;
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "android": {
+    "release": {
+      "keystore": "espacolivre.keystore",
+      "storePassword": "",
+      "alias": "",
+      "password": "",
+      "keystoreType": ""
+    }
+  },
+  "windows": {
+    "release": {
+      "packageCertificateKeyFile": "",
+      "publisherId": ""
+    }
+  }
+}
